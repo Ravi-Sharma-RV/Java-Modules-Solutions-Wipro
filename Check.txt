@@ -1,0 +1,18 @@
+class Check{
+    public static void main(String[] args){
+         int a= Integer.parseInt(args[0]);
+         
+          if(a%2==0){
+           System.out.print("number is even");}
+          elseif((a%2)!=0){
+           System.out.print("number is odd");}
+          elseif(a<0){                                                   
+           System.out.print("number is negative");}
+          elseif(a>0){
+           System.out.print("number is positive");}
+          else{
+           System.out.print("number is zero");}
+                 
+             
+        }
+}
